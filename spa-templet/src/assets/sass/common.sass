@@ -1,0 +1,58 @@
+$blueColor: #0099ee
+$fontColor: #333
+$orangeColor: #f70
+$redColor: #f32
+$borderColor: #f5f5f5
+$whiteColor: #fff
+
+
+@mixin padding($val)
+    padding: $val
+@mixin padding_a($top,$right,$bottom,$left)
+    padding: $top $right $bottom $left
+@mixin padding_t($val)
+    padding-top: $val
+@mixin padding_r($val)
+    padding-right: $val
+@mixin padding_b($val)
+    padding-bottom: $val
+@mixin padding_l($val)
+    padding-left: $val
+@mixin margin($val)
+    margin: $val
+@mixin margin_a($top,$right,$bottom,$left)
+    margin: $top $right $bottom $left
+@mixin margin_t($val)
+    margin-top: $val
+@mixin margin_r($val)
+    margin-right: $val
+@mixin margin_b($val)
+    margin-bottom: $val
+@mixin margin_l($val)
+    margin-left: $val
+@mixin border_b($val,$color)
+    border-bottom: $val solid $color
+@mixin border_t($val,$color)
+    border-top: $val solid $color
+@mixin border_l($val,$color)
+    border-left: $val solid $color
+@mixin border_r($val,$color)
+    border-right: $val solid $color
+@mixin border_radius($val)
+    border-radius: $val
+    -o-border-radius: $val
+    -moz-border-radius: $val
+    -ms-border-radius: $val
+    -webkit-border-radius: $val
+@mixin animation($name,$time)
+    animation: $name $time
+    -webkit-animation: $name $time
+    -ms-animation: $name $time
+    -o-animation: $name $time
+    -moz-animation: $name $time
+@mixin box-shadow($sval,$cval,$mo,$color)
+    box-shadow: $sval $cval $mo $color
+    -webkit-box-shadow: $sval $cval $mo $color
+    -ms-box-shadow: $sval $cval $mo $color
+    -o-box-shadow: $sval $cval $mo $color
+    -moz-box-shadow: $sval $cval $mo $color
